@@ -1,0 +1,174 @@
+.logo {
+    background-image: url("../img/furniture.svg");
+    width: 230px;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link {
+    color: #282a30;
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icon_hd {
+    width: 27px;
+    height: 27px;
+}
+
+.ihd1 {
+    background-image: url("../img/icon_h1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ihd2 {
+    background-image: url("../img/icon_h2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+}
+
+.link {
+    color: #282a30;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.bg_img {
+    background-image: url("../img/img_bg.png");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title_text {
+    color: #282a30;
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle_text {
+    font-family: Montserrat;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text_d {
+    color: rgba(40, 42, 48, 0.5);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.des_text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.text1 {
+    color: #282a30;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sect3 {
+    margin-top: 170px;
+}
+
+.text {
+    margin-top: 1%;
+    color: #282a30;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text123 {
+    color: rgba(40, 42, 48, 0.3);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1%;
+}
+
+.footer_title {
+    color: #282a30;
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 250;
+    padding-bottom: 30px;
+}
+
+.footer_std {
+    color: rgba(40, 42, 48, 0.8);
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    .title_text {
+        font-size: 35px;
+    }
+    .subtitle_text {
+        font-size: 40px;
+    }
+    .bold_title {
+        font-size: 22px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .title_text {
+        font-size: 35px;
+    }
+    .subtitle_text {
+        font-size: 40px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+}
